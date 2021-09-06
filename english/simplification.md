@@ -99,6 +99,7 @@ We present the models tested in this dataset **ranked by SARI score**.
 | UnsupNTS (Surya et al., 2019) | 74.02 | 37.20| [Unsupervised Neural Text Simplification](https://www.aclweb.org/anthology/P19-1198) | [Official](https://github.com/subramanyamdvss/UnsupNTS) |
 | DRESS (Zhang and Lapata, 2017) | 77.18 | 37.08 | [Sentence Simplification with Deep Reinforcement Learning](http://aclweb.org/anthology/D17-1062) | [Official](https://github.com/XingxingZhang/dress) |
 | SeqLabel (Alva-Manchego et al., 2017) |  | 37.08\* | [Learning How to Simplify From Explicit Labeling of Complex-Simplified Text Pairs](https://www.aclweb.org/anthology/I17-1030) | |
+| Edit + synt (Cumbicus-Pineda et al., 2021) | 75.35 | 36.97 |[A Syntax-Aware Edit-based System for Text Simplification](https://ranlp.org/ranlp2021/proceedings.pdf) |  |
 | NSELSTM-S (Vu et al., 2018) | 80.43 | 36.88 | [Sentence Simplification with Memory-Augmented Neural Networks](http://aclweb.org/anthology/N18-2013) |  |
 | SEMoses (Sulem et al., 2018)                                 |      74.49       |     36.70      | [Simple and Effective Text Simplification Using Semantic and Neural Methods](http://aclweb.org/anthology/P18-1016) | [Official](https://github.com/eliorsulem/simplification-acl2018) |
 | NSELSTM-B (Vu et al., 2018) | 92.02 | 33.43 | [Sentence Simplification with Memory-Augmented Neural Networks](http://aclweb.org/anthology/N18-2013) | |
@@ -138,6 +139,7 @@ Using their splits, [Zhang and Lapata (2017)](http://aclweb.org/anthology/D17-10
 
 | Model           | BLEU | SARI | Paper / Source | Code |
 | --------------- | :-----: | :-----: | -------------- | ---- |
+| Edit + synt (Cumbicus-Pineda et al., 2021) | 20.58 | 38.08 |[A Syntax-Aware Edit-based System for Text Simplification](https://ranlp.org/ranlp2021/proceedings.pdf) |  |
 | CRF Alignment + Transformer (Jiang et al., 2020) |   | 36.6 | [Neural CRF Model for Sentence Alignment in Text Simplification](https://arxiv.org/abs/2005.02324) | [Official](https://github.com/chaojiang06/wiki-auto) |
 | Pointer + Multi-task Entailment and Paraphrase Generation (Guo et al., 2018) | 11.14 | 33.22 | [Dynamic Multi-Level Multi-Task Learning for Sentence Simplification](http://aclweb.org/anthology/C18-1039) | [Official](https://github.com/HanGuo97/MultitaskSimplification) |
 |S2S-Cluster-FA (Kriz et al., 2019) | 19.55 | 30.73 | [Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification](https://www.aclweb.org/anthology/N19-1317) | [Official](https://github.com/rekriz11/sockeye-recipes) |
